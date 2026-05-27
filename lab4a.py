@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
 def join_sets(s1, s2):
-    return set(s1).union(set(s2))
+    return set(s1) | set(s2)
 
 def match_sets(s1, s2):
-    return set(s1).intersection(set(s2))
+    return set(s1) & set(s2)
 
 def diff_sets(s1, s2):
-    return set(s1).symmetric_difference(set(s2))
+    return set(s1) ^ set(s2)
 
 if __name__ == '__main__':
     set1 = set(range(1,10))
