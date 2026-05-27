@@ -87,7 +87,7 @@ Traceback (most recent call last):
 AssertionError: '100' != 100 : your function must return a string value(HINT: use the str() function)
 
 ----------------------------------------------------------------------
-Ran 39 tests in 0.050s
+Ran 39 tests in 0.049s
 
 FAILED (failures=1)
 OPS445 Lab Report - System Information for running ./CheckLab3.py
@@ -98,5 +98,6 @@ OPS445 Lab Report - System Information for running ./CheckLab3.py
     Python version: 3123
     OS Platform: linux
     Working Directory: /home/akkoiri/ops445/lab3
-    Start at: Fri May 22 09:18:04 2026
+    Start at: Wed May 27 13:16:13 2026
 =================================================================
+akkoiri

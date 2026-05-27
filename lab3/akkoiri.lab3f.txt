@@ -14,6 +14,6 @@ test_e_function_remove_items_from_list (__main__.lab3f.test_e_function_remove_it
 [Lab 3] - [Investigation 3] - [Part 3] - functions & lists & for loops - check for correct items in list ... ok
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.007s
+Ran 7 tests in 0.009s
 
 OK

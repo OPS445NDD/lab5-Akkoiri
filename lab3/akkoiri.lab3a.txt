@@ -10,6 +10,6 @@ test_5_function_return_number_value (__main__.lab3a.test_5_function_return_numbe
 [Lab 3] - [Investigation 1] - [Part 4] - Functions - function print_out_text() has correct output ... ok
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.007s
+Ran 5 tests in 0.009s
 
 OK

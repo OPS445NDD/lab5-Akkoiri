@@ -19,6 +19,6 @@ Traceback (most recent call last):
 AssertionError: '100' != 100 : your function must return a string value(HINT: use the str() function)
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.007s
+Ran 5 tests in 0.009s
 
 FAILED (failures=1)
