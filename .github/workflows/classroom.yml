@@ -13,58 +13,38 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-    - name: lab4a
-      id: lab4a
+    - name: lab5a
+      id: lab5a
       uses: classroom-resources/autograding-command-grader@v1
       with:
-        test-name: lab4a
-        setup-command: python3 ./CheckLab4.py -f -v
-        command: python3 ./CheckLa4a.py -f -v lab4a
+        test-name: lab5a
+        setup-command: python3 ./CheckLab5.py -f -v
+        command: python3 ./CheckLab5.py -f -v lab5a
         timeout: 10
         max-score: 1
-    - name: lab4b
-      id: lab4b
+    - name: lab5b
+      id: lab5b
       uses: classroom-resources/autograding-command-grader@v1
       with:
-        test-name: lab4b
-        setup-command: python3 ./CheckLab4.py -f -v
-        command: python3 ./CheckLab4.py -f -v lab4b
+        test-name: lab5b
+        setup-command: python3 ./CheckLab5.py -f -v
+        command: python3 ./CheckLab5.py -f -v lab5b
         timeout: 10
         max-score: 1
-    - name: lab4c
-      id: lab4c
+    - name: lab5c
+      id: lab5c
       uses: classroom-resources/autograding-command-grader@v1
       with:
-        test-name: lab4c
-        setup-command: python3 ./CheckLab4.py -f -v
-        command: python3 ./CheckLab4.py -f -v lab4c
-        timeout: 10
-        max-score: 1
-    - name: lab4d
-      id: lab4d
-      uses: classroom-resources/autograding-command-grader@v1
-      with:
-        test-name: lab4d
-        setup-command: python3 ./CheckLab4.py -f -v
-        command: python3 ./CheckLab4.py -f -v lab4d
-        timeout: 10
-        max-score: 1
-    - name: lab4e
-      id: lab4e
-      uses: classroom-resources/autograding-command-grader@v1
-      with:
-        test-name: lab4e
-        setup-command: python3 ./CheckLab4.py -f -v
-        command: python3 ./CheckLab4.py -f -v lab4e
+        test-name: lab5c
+        setup-command: python3 ./CheckLab5.py -f -v
+        command: python3 ./CheckLab5.py -f -v lab5c
         timeout: 10
         max-score: 1
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
-        LAB4A_RESULTS: "${{steps.lab4a.outputs.result}}"
-        LAB4B_RESULTS: "${{steps.lab4b.outputs.result}}"
-        LAB4C_RESULTS: "${{steps.lab4c.outputs.result}}"
-        LAB4D_RESULTS: "${{steps.lab4d.outputs.result}}"
-        LAB4E_RESULTS: "${{steps.lab4e.outputs.result}}"
+        LAB5A_RESULTS: "${{steps.lab5a.outputs.result}}"
+        LAB5B_RESULTS: "${{steps.lab5b.outputs.result}}"
+        LAB5C_RESULTS: "${{steps.lab5c.outputs.result}}"
       with:
-        runners: lab4a,lab4b,lab4c,lab4d,lab4e
+        runners: lab5a,lab5b,lab5c
