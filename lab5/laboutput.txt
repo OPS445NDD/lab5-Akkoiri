@@ -133,4 +133,99 @@ no changes added to commit (use "git add" and/or "git commit -a")
 Counting objects:   4% (1/22)Counting objects:   9% (2/22)Counting objects:  13% (3/22)Counting objects:  18% (4/22)Counting objects:  22% (5/22)Counting objects:  27% (6/22)Counting objects:  31% (7/22)Counting objects:  36% (8/22)Counting objects:  40% (9/22)Counting objects:  45% (10/22)Counting objects:  50% (11/22)Counting objects:  54% (12/22)Counting objects:  59% (13/22)Counting objects:  63% (14/22)Counting objects:  68% (15/22)Counting objects:  72% (16/22)Counting objects:  77% (17/22)Counting objects:  81% (18/22)Counting objects:  86% (19/22)Counting objects:  90% (20/22)Counting objects:  95% (21/22)Counting objects: 100% (22/22)Counting objects: 100% (22/22), done.
 Delta compression using up to 4 threads
 Compressing objects:   6% (1/15)Compressing objects:  13% (2/15)Compressing objects:  20% (3/15)Compressing objects:  26% (4/15)Compressing objects:  33% (5/15)Compressing objects:  40% (6/15)Compressing objects:  46% (7/15)Compressing objects:  53% (8/15)Compressing objects:  60% (9/15)Compressing objects:  66% (10/15)Compressing objects:  73% (11/15)Compressing objects:  80% (12/15)Compressing objects:  86% (13/15)Compressing objects:  93% (14/15)Compressing objects: 100% (15/15)Compressing objects: 100% (15/15), done.
-Writing objects:   4% (1/21)Writing objects:   9% (2/21)Writing objects:  14% (3/21)Writing objects:  19% (4/21)Writing objects:  23% (5/21)Writing objects:  33% (7/21)Writing objects:  38% (8/21)Writing objects:  42% (9/21)Writing objects:  47% (10/21)Writing objects:  52% (11/21)Writing objects:  61% (13/21)Writing objects:  66% (14/21)Writing objects:  71% (15/21)Writing objects:  76% (16/21)Writing objects:  80% (17/21)Writing objects:  85% (18/21)Writing objects:  90% (19/21)Writing objects:  95% (20/21)Writing objects: 100% (21/21)Writing o
+Writing objects:   4% (1/21)Writing objects:   9% (2/21)Writing objects:  14% (3/21)Writing objects:  19% (4/21)Writing objects:  23% (5/21)Writing objects:  33% (7/21)Writing objects:  38% (8/21)Writing objects:  42% (9/21)Writing objects:  47% (10/21)Writing objects:  52% (11/21)Writing objects:  61% (13/21)Writing objects:  66% (14/21)Writing objects:  71% (15/21)Writing objects:  76% (16/21)Writing objects:  80% (17/21)Writing objects:  85% (18/21)Writing objects:  90% (19/21)Writing objects:  95% (20/21)Writing objects: 100% (21/21)Writing objects: 100% (21/21), 7.42 KiB | 7.42 MiB/s, done.
+Total 21 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 1 local object.[K
+To github.com:OPS445NDD/lab4-Akkoiri.git
+   fdb353b..6ae6ccd  main -> main
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit push origin main[27mgit push origin main
+[?2004lEverything up-to-date
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit push origin master[27mgit push origin master
+[?2004lEverything up-to-date
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mcd ~/ops445/lab5[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/ops445/lab5
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit add .[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add .
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit commit -m "Update Lab 5 files[27m[7m"[27m[7m [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "Update Lab 5 files"
+[A
+[?2004l[main 1d4e622] Update Lab 5 files
+ 1 file changed, 136 insertions(+)
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit push origin main[27mgit push origin main
+[?2004lEnumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 1.80 KiB | 1.80 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:OPS445NDD/lab4-Akkoiri.git
+   6ae6ccd..1d4e622  main -> main
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit add .[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add .
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit commit --allow-empty -m "Trig[27m[7mg[27m[7mer GitHub update" [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit --allow-empty -m "Trigger GitHub update"
+[A
+[?2004l[main 7ec9d44] Trigger GitHub update
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit push origin main[27mgit push origin main
+[?2004lEnumerating objects: 1, done.
+Counting objects: 100% (1/1)Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1)Writing objects: 100% (1/1), 199 bytes | 199.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:OPS445NDD/lab4-Akkoiri.git
+   1d4e622..7ec9d44  main -> main
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit remote -v[27mgit remote -v
+[?2004lorigin	git@github.com:OPS445NDD/lab4-Akkoiri.git (fetch)
+origin	git@github.com:OPS445NDD/lab4-Akkoiri.git (push)
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit branch[27mgit branch
+[?2004l[?1h=* [32mmain[m[m
+  master[m[m
+[K[?1l>[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgithub.com:OPS445NDD/lab4-Akkoiri[27m[7m.[27m[7mgit[27m[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ github.com:OPS445NDD/lab4-Akkoiri.git
+[?2004lbash: github.com:OPS445NDD/lab4-Akkoiri.git: No such file or directory
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit remote -v[27mgit remote -v
+[?2004lorigin	git@github.com:OPS445NDD/lab4-Akkoiri.git (fetch)
+origin	git@github.com:OPS445NDD/lab4-Akkoiri.git (push)
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mcd ~/ops445/lab5[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/ops445/lab5
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mpwd[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd
+[A
+[?2004l/home/akkoiri/ops445/lab5
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit remote -v[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote -v
+[A
+[?2004lorigin	git@github.com:OPS445NDD/lab4-Akkoiri.git (fetch)
+origin	git@github.com:OPS445NDD/lab4-Akkoiri.git (push)
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit status[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit status
+[A
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   ../lab2[m (untracked content)
+	[31mmodified:   laboutput.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../lab3/lab3-Akkoiri/[m
+	[31m../lab4-Akkoiri/[m
+	[31m../lab4/CheckLab4.py[m
+	[31m../lab4/__pycache__/[m
+	[31m../lab4/akkoiri.lab4a.txt[m
+	[31m../lab4/akkoiri.lab4b.txt[m
+	[31m../lab4/akkoiri.lab4c.txt[m
+	[31m../lab4/akkoiri.lab4d.txt[m
+	[31m../lab4/akkoiri.lab4e.txt[m
+	[31m../lab4/akkoiri.laboutput.txt[m
+	[31m../test-lab3/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;akkoir
