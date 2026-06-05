@@ -228,4 +228,58 @@ Untracked files:
 	[31m../test-lab3/[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
-[?2004h]0;akkoir
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mcd ~/ops445/lab5[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/ops445/lab5
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit add laboutput.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add laboutput.txt
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit commit -m "Update laboutput"[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "Update laboutput"
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+[?2004l[main 1ba75e9] Update laboutput
+ 1 file changed, 96 insertions(+), 1 deletion(-)
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit push origin main[27mgit push origin main
+[?2004lEnumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 2.52 KiB | 2.52 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:OPS445NDD/lab4-Akkoiri.git
+   7ec9d44..1ba75e9  main -> main
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit status[27mgit status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   ../lab2[m (untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../lab3/lab3-Akkoiri/[m
+	[31m../lab4-Akkoiri/[m
+	[31m../lab4/CheckLab4.py[m
+	[31m../lab4/__pycache__/[m
+	[31m../lab4/akkoiri.lab4a.txt[m
+	[31m../lab4/akkoiri.lab4b.txt[m
+	[31m../lab4/akkoiri.lab4c.txt[m
+	[31m../lab4/akkoiri.lab4d.txt[m
+	[31m../lab4/akkoiri.lab4e.txt[m
+	[31m../lab4/akkoiri.laboutput.txt[m
+	[31m../test-lab3/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   ../lab2[m (untracke
