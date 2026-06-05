@@ -1,0 +1,10 @@
+OPS445 Lab Report - System Information for running CheckLab5.py
+===============================================================
+    User login name: akkoiri
+    Linux system name: Akkoiri-virtual-machine
+    Python executable: /usr/bin/python3
+    Python version: 3123
+    OS Platform: linux
+    Working Directory: /home/akkoiri/ops445/lab5
+    Start at: Fri Jun  5 09:33:45 2026
+===============================================================
