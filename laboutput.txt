@@ -1,0 +1,454 @@
+Script started on 2026-06-05 09:33:53-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mpython3 lab5a.py[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3 lab5a.py
+[A
+[?2004lHello World
+This is the second line
+Third line
+Last line
+
+['Hello World', 'This is the second line', 'Third line', 'Last line']
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mpython3 lab5b.py[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3 lab5b.py
+[A
+[?2004lFirst Line
+Second Line
+Third Line
+First Line
+Second Line
+Third Line
+First Line
+Second Line
+Third Line
+First Line
+Second Line
+Third Line
+First Line
+Second Line
+Third Line
+
+Line 1
+Line 2
+Line 3
+
+1:Line 1
+2:Line 2
+3:Line 3
+
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mpython3 lab5c.py[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3 lab5c.py
+[A
+[?2004l15
+15
+error: could not add numbers
+['Line 1\n', 'Line 2\n', 'Line 3\n']
+error: could not read file
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ ls
+[?2004lakkoiri.lab5a.txt  [0m[01;32mlab5a.py[0m       seneca1.txt.checkscript
+akkoiri.lab5b.txt  [01;32mlab5b.py[0m       seneca2.txt
+akkoiri.lab5c.txt  [01;32mlab5c.py[0m       seneca2.txt.checkscript
+CheckLab5.py       laboutput.txt  seneca3.txt
+data.txt           [01;34m__pycache__[0m    seneca3.txt.checkscript
+lab5_akkoiri.txt   seneca1.txt    seneca4.txt.checkscript
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   ../lab2[m (untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../lab3/lab3-Akkoiri/[m
+	[31m../lab4-Akkoiri/[m
+	[31m../lab4/CheckLab4.py[m
+	[31m../lab4/__pycache__/[m
+	[31m../lab4/akkoiri.lab4a.txt[m
+	[31m../lab4/akkoiri.lab4b.txt[m
+	[31m../lab4/akkoiri.lab4c.txt[m
+	[31m../lab4/akkoiri.lab4d.txt[m
+	[31m../lab4/akkoiri.lab4e.txt[m
+	[31m../lab4/akkoiri.laboutput.txt[m
+	[31m./[m
+	[31m../test-lab3/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit add lab5a.py lab5b.py lab5c.p[27m[7my[27m[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ git add lab5a.py lab5b.py lab5c.py
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit add .[27mgit add .
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit commit -m "Completed Lab 5"[27mgit commit -m "Completed Lab 5"
+[?2004l[main 6ae6ccd] Completed Lab 5
+ 20 files changed, 664 insertions(+)
+ create mode 100644 lab5/CheckLab5.py
+ create mode 100644 lab5/__pycache__/lab5a.cpython-312.pyc
+ create mode 100644 lab5/__pycache__/lab5b.cpython-312.pyc
+ create mode 100644 lab5/__pycache__/lab5c.cpython-312.pyc
+ create mode 100644 lab5/akkoiri.lab5a.txt
+ create mode 100644 lab5/akkoiri.lab5b.txt
+ create mode 100644 lab5/akkoiri.lab5c.txt
+ create mode 100644 lab5/data.txt
+ create mode 100644 lab5/lab5_akkoiri.txt
+ create mode 100755 lab5/lab5a.py
+ create mode 100755 lab5/lab5b.py
+ create mode 100755 lab5/lab5c.py
+ create mode 100644 lab5/laboutput.txt
+ create mode 100644 lab5/seneca1.txt
+ create mode 100644 lab5/seneca1.txt.checkscript
+ create mode 100644 lab5/seneca2.txt
+ create mode 100644 lab5/seneca2.txt.checkscript
+ create mode 100644 lab5/seneca3.txt
+ create mode 100644 lab5/seneca3.txt.checkscript
+ create mode 100644 lab5/seneca4.txt.checkscript
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit commit -m "Completed Lab 5"[27mgit commit -m "Completed Lab 5"
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   ../lab2[m (untracked content)
+	[31mmodified:   laboutput.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../lab3/lab3-Akkoiri/[m
+	[31m../lab4-Akkoiri/[m
+	[31m../lab4/CheckLab4.py[m
+	[31m../lab4/__pycache__/[m
+	[31m../lab4/akkoiri.lab4a.txt[m
+	[31m../lab4/akkoiri.lab4b.txt[m
+	[31m../lab4/akkoiri.lab4c.txt[m
+	[31m../lab4/akkoiri.lab4d.txt[m
+	[31m../lab4/akkoiri.lab4e.txt[m
+	[31m../lab4/akkoiri.laboutput.txt[m
+	[31m../test-lab3/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit push[27mgit push
+[?2004lEnumerating objects: 22, done.
+Counting objects:   4% (1/22)Counting objects:   9% (2/22)Counting objects:  13% (3/22)Counting objects:  18% (4/22)Counting objects:  22% (5/22)Counting objects:  27% (6/22)Counting objects:  31% (7/22)Counting objects:  36% (8/22)Counting objects:  40% (9/22)Counting objects:  45% (10/22)Counting objects:  50% (11/22)Counting objects:  54% (12/22)Counting objects:  59% (13/22)Counting objects:  63% (14/22)Counting objects:  68% (15/22)Counting objects:  72% (16/22)Counting objects:  77% (17/22)Counting objects:  81% (18/22)Counting objects:  86% (19/22)Counting objects:  90% (20/22)Counting objects:  95% (21/22)Counting objects: 100% (22/22)Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects:   6% (1/15)Compressing objects:  13% (2/15)Compressing objects:  20% (3/15)Compressing objects:  26% (4/15)Compressing objects:  33% (5/15)Compressing objects:  40% (6/15)Compressing objects:  46% (7/15)Compressing objects:  53% (8/15)Compressing objects:  60% (9/15)Compressing objects:  66% (10/15)Compressing objects:  73% (11/15)Compressing objects:  80% (12/15)Compressing objects:  86% (13/15)Compressing objects:  93% (14/15)Compressing objects: 100% (15/15)Compressing objects: 100% (15/15), done.
+Writing objects:   4% (1/21)Writing objects:   9% (2/21)Writing objects:  14% (3/21)Writing objects:  19% (4/21)Writing objects:  23% (5/21)Writing objects:  33% (7/21)Writing objects:  38% (8/21)Writing objects:  42% (9/21)Writing objects:  47% (10/21)Writing objects:  52% (11/21)Writing objects:  61% (13/21)Writing objects:  66% (14/21)Writing objects:  71% (15/21)Writing objects:  76% (16/21)Writing objects:  80% (17/21)Writing objects:  85% (18/21)Writing objects:  90% (19/21)Writing objects:  95% (20/21)Writing objects: 100% (21/21)Writing objects: 100% (21/21), 7.42 KiB | 7.42 MiB/s, done.
+Total 21 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 1 local object.[K
+To github.com:OPS445NDD/lab4-Akkoiri.git
+   fdb353b..6ae6ccd  main -> main
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit push origin main[27mgit push origin main
+[?2004lEverything up-to-date
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit push origin master[27mgit push origin master
+[?2004lEverything up-to-date
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mcd ~/ops445/lab5[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/ops445/lab5
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit add .[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add .
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit commit -m "Update Lab 5 files[27m[7m"[27m[7m [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "Update Lab 5 files"
+[A
+[?2004l[main 1d4e622] Update Lab 5 files
+ 1 file changed, 136 insertions(+)
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit push origin main[27mgit push origin main
+[?2004lEnumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 1.80 KiB | 1.80 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:OPS445NDD/lab4-Akkoiri.git
+   6ae6ccd..1d4e622  main -> main
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit add .[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add .
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit commit --allow-empty -m "Trig[27m[7mg[27m[7mer GitHub update" [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit --allow-empty -m "Trigger GitHub update"
+[A
+[?2004l[main 7ec9d44] Trigger GitHub update
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit push origin main[27mgit push origin main
+[?2004lEnumerating objects: 1, done.
+Counting objects: 100% (1/1)Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1)Writing objects: 100% (1/1), 199 bytes | 199.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:OPS445NDD/lab4-Akkoiri.git
+   1d4e622..7ec9d44  main -> main
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit remote -v[27mgit remote -v
+[?2004lorigin	git@github.com:OPS445NDD/lab4-Akkoiri.git (fetch)
+origin	git@github.com:OPS445NDD/lab4-Akkoiri.git (push)
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit branch[27mgit branch
+[?2004l[?1h=* [32mmain[m[m
+  master[m[m
+[K[?1l>[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgithub.com:OPS445NDD/lab4-Akkoiri[27m[7m.[27m[7mgit[27m[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ github.com:OPS445NDD/lab4-Akkoiri.git
+[?2004lbash: github.com:OPS445NDD/lab4-Akkoiri.git: No such file or directory
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit remote -v[27mgit remote -v
+[?2004lorigin	git@github.com:OPS445NDD/lab4-Akkoiri.git (fetch)
+origin	git@github.com:OPS445NDD/lab4-Akkoiri.git (push)
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mcd ~/ops445/lab5[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/ops445/lab5
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mpwd[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd
+[A
+[?2004l/home/akkoiri/ops445/lab5
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit remote -v[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote -v
+[A
+[?2004lorigin	git@github.com:OPS445NDD/lab4-Akkoiri.git (fetch)
+origin	git@github.com:OPS445NDD/lab4-Akkoiri.git (push)
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit status[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit status
+[A
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   ../lab2[m (untracked content)
+	[31mmodified:   laboutput.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../lab3/lab3-Akkoiri/[m
+	[31m../lab4-Akkoiri/[m
+	[31m../lab4/CheckLab4.py[m
+	[31m../lab4/__pycache__/[m
+	[31m../lab4/akkoiri.lab4a.txt[m
+	[31m../lab4/akkoiri.lab4b.txt[m
+	[31m../lab4/akkoiri.lab4c.txt[m
+	[31m../lab4/akkoiri.lab4d.txt[m
+	[31m../lab4/akkoiri.lab4e.txt[m
+	[31m../lab4/akkoiri.laboutput.txt[m
+	[31m../test-lab3/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mcd ~/ops445/lab5[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/ops445/lab5
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit add laboutput.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add laboutput.txt
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit commit -m "Update laboutput"[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "Update laboutput"
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+[?2004l[main 1ba75e9] Update laboutput
+ 1 file changed, 96 insertions(+), 1 deletion(-)
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit push origin main[27mgit push origin main
+[?2004lEnumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 2.52 KiB | 2.52 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:OPS445NDD/lab4-Akkoiri.git
+   7ec9d44..1ba75e9  main -> main
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit status[27mgit status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   ../lab2[m (untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../lab3/lab3-Akkoiri/[m
+	[31m../lab4-Akkoiri/[m
+	[31m../lab4/CheckLab4.py[m
+	[31m../lab4/__pycache__/[m
+	[31m../lab4/akkoiri.lab4a.txt[m
+	[31m../lab4/akkoiri.lab4b.txt[m
+	[31m../lab4/akkoiri.lab4c.txt[m
+	[31m../lab4/akkoiri.lab4d.txt[m
+	[31m../lab4/akkoiri.lab4e.txt[m
+	[31m../lab4/akkoiri.laboutput.txt[m
+	[31m../test-lab3/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   ../lab2[m (untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../lab3/lab3-Akkoiri/[m
+	[31m../lab4-Akkoiri/[m
+	[31m../lab4/CheckLab4.py[m
+	[31m../lab4/__pycache__/[m
+	[31m../lab4/akkoiri.lab4a.txt[m
+	[31m../lab4/akkoiri.lab4b.txt[m
+	[31m../lab4/akkoiri.lab4c.txt[m
+	[31m../lab4/akkoiri.lab4d.txt[m
+	[31m../lab4/akkoiri.lab4e.txt[m
+	[31m../lab4/akkoiri.laboutput.txt[m
+	[31m../test-lab3/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ git statuspush origin maincommit -m "Update laboutput"[11Padd laboutput.txt[5Pcd ~/ops445/lab5git add laboutput.txt[5Pcd ~/ops445/lab5[6Pgit statusremote -v[3Pstatuscd ~/ops445/lab5git add laboutput.txtcommit -m "Update laboutput"[12Ppush origin main[10Pstatus[Kgit statuspush origin main[10Pstatus[Kgo[Kit add .
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ git commiy [K[Kt -m "lab5"
+[?2004l[main 03a610d] lab5
+ 1 file changed, 55 insertions(+), 1 deletion(-)
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ git push
+[?2004lEnumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 547 bytes | 547.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To github.com:OPS445NDD/lab4-Akkoiri.git
+   1ba75e9..03a610d  main -> main
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ git satsu[K[K[K[Ktatus
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   ../lab2[m (untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../lab3/lab3-Akkoiri/[m
+	[31m../lab4-Akkoiri/[m
+	[31m../lab4/CheckLab4.py[m
+	[31m../lab4/__pycache__/[m
+	[31m../lab4/akkoiri.lab4a.txt[m
+	[31m../lab4/akkoiri.lab4b.txt[m
+	[31m../lab4/akkoiri.lab4c.txt[m
+	[31m../lab4/akkoiri.lab4d.txt[m
+	[31m../lab4/akkoiri.lab4e.txt[m
+	[31m../lab4/akkoiri.laboutput.txt[m
+	[31m../test-lab3/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ git status[2Ppushcommit -m "lab5"add .[Kstatuspush origin maincommit -m "Update laboutput"[11Padd laboutput.txt[5Pcd ~/ops445/lab5[6Pgit statusremote -vpwd[Kcd ~/ops445/lab5[3Pgit remote -vhub.com:OPS445NDD/lab4-Akkoiri.git[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [C[C[C branch[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chub.com:OPS445NDD/lab4-Akkoiri.git[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [C[C[C branch[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote -vpush origin maincommit --allow-empty -m "Trigger GitHub update"[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [C[C[C[Cadd .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush origin maincommit -m "Update Lab 5 files"[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [C[C[C[Cadd .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/ops445/lab5git push origin master[2Pin[Kcommit -m "Completed Lab 5"add .[Klab5a.py lab5b.py lab5c.py[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [C[C[C[Cstatus[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kpython3 lab5c.pyls[Kgit statusadd lab5a.py lab5b.py lab5c.py[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [C[C[C[C[C[C[C[C.[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "Completed Lab 5"push[K origin mainster[6Pcd ~/ops445/lab5[7Pgit add .commit -m "Update Lab 5 files"[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [C[C[C[C[13Ppush origin main
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[Kcommit --allow-empty -m "Trigger GitHub update"[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [C[C[C[C[13Ppush origin main
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Premote -v[3Pbranchhub.com:OPS445NDD/lab4-Akkoiri.git[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [C[C[C[20P remote -v
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/ops445/lab5pwd[Kgit remote -v[3Pstatuscd ~/ops445/lab5git add laboutput.txtcommit -m "Update laboutput"[12Ppush origin main[10Pstatus[1Padd .commit -m "lab5"push[Kstatus[K[7mgit clone <ssh link> ~/ops445/lab[27m[7m5[27m[7m/[27m[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ git clone <ssh link> ~/ops445/lab5/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ~/ops445/lab5/[K[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ~/ops445/lab5/ [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ~/ops445/lab5/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ~/ops445/lab5/[1P ~/ops445/lab5/[1P~/ops445/lab5/[1P ~/ops445/lab5/[1P ~/ops445/lab5/[1P ~/ops445/lab5/[1P ~/ops445/lab5/[7mgit@github.com:OPS445ND[27m[7mD[27m[7m/lab5-Akkoiri.git[27m ~/ops445/lab5/[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [C[C[C[C[C[C[C[C[C[Cgit@github.com:OPS445NDD/lab5-Akkoiri.git[C
+[?2004lfatal: destination path '/home/akkoiri/ops445/lab5' already exists and is not an empty directory.
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit remote -v[27mgit remote -v
+[?2004lorigin	git@github.com:OPS445NDD/lab4-Akkoiri.git (fetch)
+origin	git@github.com:OPS445NDD/lab4-Akkoiri.git (push)
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mcd ~/ops445/lab5[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/ops445/lab5
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit remote set-url origin git@git[27m[7mh[27m[7mub.com:OPS445NDD/lab5-Akkoiri.git [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote set-url origin git@github.com:OPS445NDD/lab5-Akkoiri.git
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit remote -v[27mgit remote -v
+[?2004lorigin	git@github.com:OPS445NDD/lab5-Akkoiri.git (fetch)
+origin	git@github.com:OPS445NDD/lab5-Akkoiri.git (push)
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7morigin  git@github.com:OPS445NDD/[27m[7ml[27m[7mab5-Akkoiri.git[27m[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ origin  git@github.com:OPS445NDD/lab5-Akkoiri.git
+[?2004lorigin: command not found
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit push -u origin main[27mgit push -u origin main
+[?2004lTo github.com:OPS445NDD/lab5-Akkoiri.git
+ [31m! [rejected]       [m main -> main (fetch first)
+[31merror: failed to push some refs to 'github.com:OPS445NDD/lab5-Akkoiri.git'
+[m[33mhint: Updates were rejected because the remote contains work that you do not[m
+[33mhint: have locally. This is usually caused by another repository pushing to[m
+[33mhint: the same ref. If you want to integrate the remote changes, use[m
+[33mhint: 'git pull' before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit push -u origin main[27mgit push -u origin main
+[?2004lTo github.com:OPS445NDD/lab5-Akkoiri.git
+ [31m! [rejected]       [m main -> main (fetch first)
+[31merror: failed to push some refs to 'github.com:OPS445NDD/lab5-Akkoiri.git'
+[m[33mhint: Updates were rejected because the remote contains work that you do not[m
+[33mhint: have locally. This is usually caused by another repository pushing to[m
+[33mhint: the same ref. If you want to integrate the remote changes, use[m
+[33mhint: 'git pull' before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit pull origin main --allow-unre[27m[7ml[27m[7mated-histories --no-rebase [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit pull origin main --allow-unrelated-histories --no-rebase
+[A
+[?2004lremote: Enumerating objects: 14, done.[K
+remote: Counting objects:  16% (1/6)[Kremote: Counting objects:  33% (2/6)[Kremote: Counting objects:  50% (3/6)[Kremote: Counting objects:  66% (4/6)[Kremote: Counting objects:  83% (5/6)[Kremote: Counting objects: 100% (6/6)[Kremote: Counting objects: 100% (6/6), done.[K
+remote: Compressing objects:  16% (1/6)[Kremote: Compressing objects:  33% (2/6)[Kremote: Compressing objects:  50% (3/6)[Kremote: Compressing objects:  66% (4/6)[Kremote: Compressing objects:  83% (5/6)[Kremote: Compressing objects: 100% (6/6)[Kremote: Compressing objects: 100% (6/6), done.[K
+remote: Total 14 (delta 2), reused 0 (delta 0), pack-reused 8 (from 1)[K
+Unpacking objects:   7% (1/14)Unpacking objects:  14% (2/14)Unpacking objects:  21% (3/14)Unpacking objects:  28% (4/14)Unpacking objects:  35% (5/14)Unpacking objects:  42% (6/14)Unpacking objects:  50% (7/14)Unpacking objects:  57% (8/14)Unpacking objects:  64% (9/14)Unpacking objects:  71% (10/14)Unpacking objects:  78% (11/14)Unpacking objects:  85% (12/14)Unpacking objects:  92% (13/14)Unpacking objects: 100% (14/14)Unpacking objects: 100% (14/14), 7.96 KiB | 3.98 MiB/s, done.
+From github.com:OPS445NDD/lab5-Akkoiri
+ * branch            main       -> FETCH_HEAD
+ + 03a610d...de5f97f main       -> origin/main  (forced update)
+Auto-merging .github/workflows/classroom.yml
+CONFLICT (add/add): Merge conflict in .github/workflows/classroom.yml
+Auto-merging README.md
+CONFLICT (add/add): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit push -u origin main[27mgit push -u origin main
+[?2004lTo github.com:OPS445NDD/lab5-Akkoiri.git
+ [31m! [rejected]       [m main -> main (non-fast-forward)
+[31merror: failed to push some refs to 'github.com:OPS445NDD/lab5-Akkoiri.git'
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. If you want to integrate the remote changes,[m
+[33mhint: use 'git pull' before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mcd ~/ops445/lab5[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/ops445/lab5
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit merge --abort[27mgit merge --abort
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit push -u origin main --force[27mgit push -u origin main --force
+[?2004lEnumerating objects: 125, done.
+Counting objects:   0% (1/125)Counting objects:   1% (2/125)Counting objects:   2% (3/125)Counting objects:   3% (4/125)Counting objects:   4% (5/125)Counting objects:   5% (7/125)Counting objects:   6% (8/125)Counting objects:   7% (9/125)Counting objects:   8% (10/125)Counting objects:   9% (12/125)Counting objects:  10% (13/125)Counting objects:  11% (14/125)Counting objects:  12% (15/125)Counting objects:  13% (17/125)Counting objects:  14% (18/125)Counting objects:  15% (19/125)Counting objects:  16% (20/125)Counting objects:  17% (22/125)Counting objects:  18% (23/125)Counting objects:  19% (24/125)Counting objects:  20% (25/125)Counting objects:  21% (27/125)Counting objects:  22% (28/125)Counting objects:  23% (29/125)Counting objects:  24% (30/125)Counting objects:  25% (32/125)Counting objects:  26% (33/125)Counting objects:  27% (34/125)Counting objects:  28% (35/125)Counting objects:  29% (37/125)Counting objects:  30% (38/125)Counting objects:  31% (39/125)Counting objects:  32% (40/125)Counting objects:  33% (42/125)Counting objects:  34% (43/125)Counting objects:  35% (44/125)Counting objects:  36% (45/125)Counting objects:  37% (47/125)Counting objects:  38% (48/125)Counting objects:  39% (49/125)Counting objects:  40% (50/125)Counting objects:  41% (52/125)Counting objects:  42% (53/125)Counting objects:  43% (54/125)Counting objects:  44% (55/125)Counting objects:  45% (57/125)Counting objects:  46% (58/125)Counting objects:  47% (59/125)Counting objects:  48% (60/125)Counting objects:  49% (62/125)Counting objects:  50% (63/125)Counting objects:  51% (64/125)Counting objects:  52% (65/125)Counting objects:  53% (67/125)Counting objects:  54% (68/125)Counting objects:  55% (69/125)Counting objects:  56% (70/125)Counting objects:  57% (72/125)Counting objects:  58% (73/125)Counting objects:  59% (74/125)Counting objects:  60% (75/125)Counting objects:  61% (77/125)Counting objects:  62% (78/125)Counting objects:  63% (79/125)Counting objects:  64% (80/125)Counting objects:  65% (82/125)Counting objects:  66% (83/125)Counting objects:  67% (84/125)Counting objects:  68% (85/125)Counting objects:  69% (87/125)Counting objects:  70% (88/125)Counting objects:  71% (89/125)Counting objects:  72% (90/125)Counting objects:  73% (92/125)Counting objects:  74% (93/125)Counting objects:  75% (94/125)Counting objects:  76% (95/125)Counting objects:  77% (97/125)Counting objects:  78% (98/125)Counting objects:  79% (99/125)Counting objects:  80% (100/125)Counting objects:  81% (102/125)Counting objects:  82% (103/125)Counting objects:  83% (104/125)Counting objects:  84% (105/125)Counting objects:  85% (107/125)Counting objects:  86% (108/125)Counting objects:  87% (109/125)Counting objects:  88% (110/125)Counting objects:  89% (112/125)Counting objects:  90% (113/125)Counting objects:  91% (114/125)Counting objects:  92% (115/125)Counting objects:  93% (117/125)Counting objects:  94% (118/125)Counting objects:  95% (119/125)Counting objects:  96% (120/125)Counting objects:  97% (122/125)Counting objects:  98% (123/125)Counting objects:  99% (124/125)Counting objects: 100% (125/125)Counting objects: 100% (125/125), done.
+Delta compression using up to 4 threads
+Compressing objects:   0% (1/112)Compressing objects:   1% (2/112)Compressing objects:   2% (3/112)Compressing objects:   3% (4/112)Compressing objects:   4% (5/112)Compressing objects:   5% (6/112)Compressing objects:   6% (7/112)Compressing objects:   7% (8/112)Compressing objects:   8% (9/112)Compressing objects:   9% (11/112)Compressing objects:  10% (12/112)Compressing objects:  11% (13/112)Compressing objects:  12% (14/112)Compressing objects:  13% (15/112)Compressing objects:  14% (16/112)Compressing objects:  15% (17/112)Compressing objects:  16% (18/112)Compressing objects:  17% (20/112)Compressing objects:  18% (21/112)Compressing objects:  19% (22/112)Compressing objects:  20% (23/112)Compressing objects:  21% (24/112)Compressing objects:  22% (25/112)Compressing objects:  23% (26/112)Compressing objects:  24% (27/112)Compressing objects:  25% (28/112)Compressing objects:  26% (30/112)Compressing objects:  27% (31/112)Compressing objects:  28% (32/112)Compressing objects:  29% (33/112)Compressing objects:  30% (34/112)Compressing objects:  31% (35/112)Compressing objects:  32% (36/112)Compressing objects:  33% (37/112)Compressing objects:  34% (39/112)Compressing objects:  35% (40/112)Compressing objects:  36% (41/112)Compressing objects:  37% (42/112)Compressing objects:  38% (43/112)Compressing objects:  39% (44/112)Compressing objects:  40% (45/112)Compressing objects:  41% (46/112)Compressing objects:  42% (48/112)Compressing objects:  43% (49/112)Compressing objects:  44% (50/112)Compressing objects:  45% (51/112)Compressing objects:  46% (52/112)Compressing objects:  47% (53/112)Compressing objects:  48% (54/112)Compressing objects:  49% (55/112)Compressing objects:  50% (56/112)Compressing objects:  51% (58/112)Compressing objects:  52% (59/112)Compressing objects:  53% (60/112)Compressing objects:  54% (61/112)Compressing objects:  55% (62/112)Compressing objects:  56% (63/112)Compressing objects:  57% (64/112)Compressing objects:  58% (65/112)Compressing objects:  59% (67/112)Compressing objects:  60% (68/112)Compressing objects:  61% (69/112)Compressing objects:  62% (70/112)Compressing objects:  63% (71/112)Compressing objects:  64% (72/112)Compressing objects:  65% (73/112)Compressing objects:  66% (74/112)Compressing objects:  67% (76/112)Compressing objects:  68% (77/112)Compressing objects:  69% (78/112)Compressing objects:  70% (79/112)Compressing objects:  71% (80/112)Compressing objects:  72% (81/112)Compressing objects:  73% (82/112)Compressing objects:  74% (83/112)Compressing objects:  75% (84/112)Compressing objects:  76% (86/112)Compressing objects:  77% (87/112)Compressing objects:  78% (88/112)Compressing objects:  79% (89/112)Compressing objects:  80% (90/112)Compressing objects:  81% (91/112)Compressing objects:  82% (92/112)Compressing objects:  83% (93/112)Compressing objects:  84% (95/112)Compressing objects:  85% (96/112)Compressing objects:  86% (97/112)Compressing objects:  87% (98/112)Compressing objects:  88% (99/112)Compressing objects:  89% (100/112)Compressing objects:  90% (101/112)Compressing objects:  91% (102/112)Compressing objects:  92% (104/112)Compressing objects:  93% (105/112)Compressing objects:  94% (106/112)Compressing objects:  95% (107/112)Compressing objects:  96% (108/112)Compressing objects:  97% (109/112)Compressing objects:  98% (110/112)Compressing objects:  99% (111/112)Compressing objects: 100% (112/112)Compressing objects: 100% (112/112), done.
+Writing objects:   0% (1/125)Writing objects:   1% (2/125)Writing objects:   2% (3/125)Writing objects:   3% (4/125)Writing objects:   4% (5/125)Writing objects:   5% (7/125)Writing objects:   6% (8/125)Writing objects:   7% (9/125)Writing objects:   8% (10/125)Writing objects:   9% (12/125)Writing objects:  10% (13/125)Writing objects:  11% (14/125)Writing objects:  12% (16/125)Writing objects:  13% (17/125)Writing objects:  14% (18/125)Writing objects:  15% (19/125)Writing objects:  16% (20/125)Writing objects:  17% (22/125)Writing objects:  18% (23/125)Writing objects:  19% (24/125)Writing objects:  20% (25/125)Writing objects:  21% (27/125)Writing objects:  23% (29/125)Writing objects:  24% (30/125)Writing objects:  25% (32/125)Writing objects:  26% (33/125)Writing objects:  27% (34/125)Writing objects:  28% (35/125)Writing objects:  29% (37/125)Writing objects:  30% (38/125)Writing objects:  31% (39/125)Writing objects:  32% (40/125)Writing objects:  34% (43/125)Writing objects:  35% (44/125)Writing objects:  36% (45/125)Writing objects:  37% (47/125)Writing objects:  38% (48/125)Writing objects:  39% (49/125)Writing objects:  40% (50/125)Writing objects:  41% (52/125)Writing objects:  42% (53/125)Writing objects:  43% (54/125)Writing objects:  44% (55/125)Writing objects:  46% (58/125)Writing objects:  47% (59/125)Writing objects:  48% (60/125)Writing objects:  49% (62/125)Writing objects:  50% (63/125)Writing objects:  51% (64/125)Writing objects:  52% (65/125)Writing objects:  54% (68/125)Writing objects:  55% (69/125)Writing objects:  56% (70/125)Writing objects:  57% (72/125)Writing objects:  59% (74/125)Writing objects:  60% (75/125)Writing objects:  61% (77/125)Writing objects:  62% (78/125)Writing objects:  63% (79/125)Writing objects:  64% (80/125)Writing objects:  65% (82/125)Writing objects:  66% (83/125)Writing objects:  67% (84/125)Writing objects:  68% (85/125)Writing objects:  69% (87/125)Writing objects:  70% (88/125)Writing objects:  71% (89/125)Writing objects:  72% (90/125)Writing objects:  73% (92/125)Writing objects:  74% (93/125)Writing objects:  75% (94/125)Writing objects:  76% (95/125)Writing objects:  77% (97/125)Writing objects:  78% (98/125)Writing objects:  79% (99/125)Writing objects:  80% (100/125)Writing objects:  81% (102/125)Writing objects:  82% (103/125)Writing objects:  83% (104/125)Writing objects:  84% (105/125)Writing objects:  85% (107/125)Writing objects:  86% (108/125)Writing objects:  87% (109/125)Writing objects:  88% (110/125)Writing objects:  89% (112/125)Writing objects:  90% (113/125)Writing objects:  91% (114/125)Writing objects:  92% (115/125)Writing objects:  93% (117/125)Writing objects:  94% (118/125)Writing objects:  95% (119/125)Writing objects:  96% (120/125)Writing objects:  97% (122/125)Writing objects:  98% (123/125)Writing objects:  99% (124/125)Writing objects: 100% (125/125)Writing objects: 100% (125/125), 34.04 KiB | 4.86 MiB/s, done.
+Total 125 (delta 51), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/51)[Kremote: Resolving deltas:   1% (1/51)[Kremote: Resolving deltas:   3% (2/51)[Kremote: Resolving deltas:   5% (3/51)[Kremote: Resolving deltas:   7% (4/51)[Kremote: Resolving deltas:   9% (5/51)[Kremote: Resolving deltas:  11% (6/51)[Kremote: Resolving deltas:  13% (7/51)[Kremote: Resolving deltas:  15% (8/51)[Kremote: Resolving deltas:  17% (9/51)[Kremote: Resolving deltas:  19% (10/51)[Kremote: Resolving deltas:  21% (11/51)[Kremote: Resolving deltas:  23% (12/51)[Kremote: Resolving deltas:  25% (13/51)[Kremote: Resolving deltas:  27% (14/51)[Kremote: Resolving deltas:  29% (15/51)[Kremote: Resolving deltas:  31% (16/51)[Kremote: Resolving deltas:  33% (17/51)[Kremote: Resolving deltas:  35% (18/51)[Kremote: Resolving deltas:  37% (19/51)[Kremote: Resolving deltas:  39% (20/51)[Kremote: Resolving deltas:  41% (21/51)[Kremote: Resolving deltas:  43% (22/51)[Kremote: Resolving deltas:  45% (23/51)[Kremote: Resolving deltas:  47% (24/51)[Kremote: Resolving deltas:  49% (25/51)[Kremote: Resolving deltas:  50% (26/51)[Kremote: Resolving deltas:  52% (27/51)[Kremote: Resolving deltas:  54% (28/51)[Kremote: Resolving deltas:  56% (29/51)[Kremote: Resolving deltas:  58% (30/51)[Kremote: Resolving deltas:  60% (31/51)[Kremote: Resolving deltas:  62% (32/51)[Kremote: Resolving deltas:  64% (33/51)[Kremote: Resolving deltas:  66% (34/51)[Kremote: Resolving deltas:  68% (35/51)[Kremote: Resolving deltas:  70% (36/51)[Kremote: Resolving deltas:  72% (37/51)[Kremote: Resolving deltas:  74% (38/51)[Kremote: Resolving deltas:  76% (39/51)[Kremote: Resolving deltas:  78% (40/51)[Kremote: Resolving deltas:  80% (41/51)[Kremote: Resolving deltas:  82% (42/51)[Kremote: Resolving deltas:  84% (43/51)[Kremote: Resolving deltas:  86% (44/51)[Kremote: Resolving deltas:  88% (45/51)[Kremote: Resolving deltas:  90% (46/51)[Kremote: Resolving deltas:  92% (47/51)[Kremote: Resolving deltas:  94% (48/51)[Kremote: Resolving deltas:  96% (49/51)[Kremote: Resolving deltas:  98% (50/51)[Kremote: Resolving deltas: 100% (51/51)[Kremote: Resolving deltas: 100% (51/51), done.[K
+To github.com:OPS445NDD/lab5-Akkoiri.git
+ + de5f97f...03a610d main -> main (forced update)
+branch 'main' set up to track 'origin/main'.
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mcd ~/ops445[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/ops445
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445[00m$ [7mmv lab5 lab5-wrong-backup[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv lab5 lab5-wrong-backup
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445[00m$ [7mgit clone git@github.com:OPS445NDD/lab[27m[7m5[27m[7m-Akkoiri.git lab5 [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:OPS445NDD/lab5-Akkoiri.git lab5
+[A
+[?2004lCloning into 'lab5'...
+remote: Enumerating objects: 125, done.[K
+remote: Counting objects:   0% (1/117)[Kremote: Counting objects:   1% (2/117)[Kremote: Counting objects:   2% (3/117)[Kremote: Counting objects:   3% (4/117)[Kremote: Counting objects:   4% (5/117)[Kremote: Counting objects:   5% (6/117)[Kremote: Counting objects:   6% (8/117)[Kremote: Counting objects:   7% (9/117)[Kremote: Counting objects:   8% (10/117)[Kremote: Counting objects:   9% (11/117)[Kremote: Counting objects:  10% (12/117)[Kremote: Counting objects:  11% (13/117)[Kremote: Counting objects:  12% (15/117)[Kremote: Counting objects:  13% (16/117)[Kremote: Counting objects:  14% (17/117)[Kremote: Counting objects:  15% (18/117)[Kremote: Counting objects:  16% (19/117)[Kremote: Counting objects:  17% (20/117)[Kremote: Counting objects:  18% (22/117)[Kremote: Counting objects:  19% (23/117)[Kremote: Counting objects:  20% (24/117)[Kremote: Counting objects:  21% (25/117)[Kremote: Counting objects:  22% (26/117)[Kremote: Counting objects:  23% (27/117)[Kremote: Counting objects:  24% (29/117)[Kremote: Counting objects:  25% (30/117)[Kremote: Counting objects:  26% (31/117)[Kremote: Counting objects:  27% (32/117)[Kremote: Counting objects:  28% (33/117)[Kremote: Counting objects:  29% (34/117)[Kremote: Counting objects:  30% (36/117)[Kremote: Counting objects:  31% (37/117)[Kremote: Counting objects:  32% (38/117)[Kremote: Counting objects:  33% (39/117)[Kremote: Counting objects:  34% (40/117)[Kremote: Counting objects:  35% (41/117)[Kremote: Counting objects:  36% (43/117)[Kremote: Counting objects:  37% (44/117)[Kremote: Counting objects:  38% (45/117)[Kremote: Counting objects:  39% (46/117)[Kremote: Counting objects:  40% (47/117)[Kremote: Counting objects:  41% (48/117)[Kremote: Counting objects:  42% (50/117)[Kremote: Counting objects:  43% (51/117)[Kremote: Counting objects:  44% (52/117)[Kremote: Counting objects:  45% (53/117)[Kremote: Counting objects:  46% (54/117)[Kremote: Counting objects:  47% (55/117)[Kremote: Counting objects:  48% (57/117)[Kremote: Counting objects:  49% (58/117)[Kremote: Counting objects:  50% (59/117)[Kremote: Counting objects:  51% (60/117)[Kremote: Counting objects:  52% (61/117)[Kremote: Counting objects:  53% (63/117)[Kremote: Counting objects:  54% (64/117)[Kremote: Counting objects:  55% (65/117)[Kremote: Counting objects:  56% (66/117)[Kremote: Counting objects:  57% (67/117)[Kremote: Counting objects:  58% (68/117)[Kremote: Counting objects:  59% (70/117)[Kremote: Counting objects:  60% (71/117)[Kremote: Counting objects:  61% (72/117)[Kremote: Counting objects:  62% (73/117)[Kremote: Counting objects:  63% (74/117)[Kremote: Counting objects:  64% (75/117)[Kremote: Counting objects:  65% (77/117)[Kremote: Counting objects:  66% (78/117)[Kremote: Counting objects:  67% (79/117)[Kremote: Counting objects:  68% (80/117)[Kremote: Counting objects:  69% (81/117)[Kremote: Counting objects:  70% (82/117)[Kremote: Counting objects:  71% (84/117)[Kremote: Counting objects:  72% (85/117)[Kremote: Counting objects:  73% (86/117)[Kremote: Counting objects:  74% (87/117)[Kremote: Counting objects:  75% (88/117)[Kremote: Counting objects:  76% (89/117)[Kremote: Counting objects:  77% (91/117)[Kremote: Counting objects:  78% (92/117)[Kremote: Counting objects:  79% (93/117)[Kremote: Counting objects:  80% (94/117)[Kremote: Counting objects:  81% (95/117)[Kremote: Counting objects:  82% (96/117)[Kremote: Counting objects:  83% (98/117)[Kremote: Counting objects:  84% (99/117)[Kremote: Counting objects:  85% (100/117)[Kremote: Counting objects:  86% (101/117)[Kremote: Counting objects:  87% (102/117)[Kremote: Counting objects:  88% (103/117)[Kremote: Counting objects:  89% (105/117)[Kremote: Counting objects:  90% (106/117)[Kremote: Counting objects:  91% (107/117)[Kremote: Counting objects:  92% (108/117)[Kremote: Counting objects:  93% (109/117)[Kremote: Counting objects:  94% (110/117)[Kremote: Counting objects:  95% (112/117)[Kremote: Counting objects:  96% (113/117)[Kremote: Counting objects:  97% (114/117)[Kremote: Counting objects:  98% (115/117)[Kremote: Counting objects:  99% (116/117)[Kremote: Counting objects: 100% (117/117)[Kremote: Counting objects: 100% (117/117), done.[K
+remote: Compressing objects:   1% (1/59)[Kremote: Compressing objects:   3% (2/59)[Kremote: Compressing objects:   5% (3/59)[Kremote: Compressing objects:   6% (4/59)[Kremote: Compressing objects:   8% (5/59)[Kremote: Compressing objects:  10% (6/59)[Kremote: Compressing objects:  11% (7/59)[Kremote: Compressing objects:  13% (8/59)[Kremote: Compressing objects:  15% (9/59)[Kremote: Compressing objects:  16% (10/59)[Kremote: Compressing objects:  18% (11/59)[Kremote: Compressing objects:  20% (12/59)[Kremote: Compressing objects:  22% (13/59)[Kremote: Compressing objects:  23% (14/59)[Kremote: Compressing objects:  25% (15/59)[Kremote: Compressing objects:  27% (16/59)[Kremote: Compressing objects:  28% (17/59)[Kremote: Compressing objects:  30% (18/59)[Kremote: Compressing objects:  32% (19/59)[Kremote: Compressing objects:  33% (20/59)[Kremote: Compressing objects:  35% (21/59)[Kremote: Compressing objects:  37% (22/59)[Kremote: Compressing objects:  38% (23/59)[Kremote: Compressing objects:  40% (24/59)[Kremote: Compressing objects:  42% (25/59)[Kremote: Compressing objects:  44% (26/59)[Kremote: Compressing objects:  45% (27/59)[Kremote: Compressing objects:  47% (28/59)[Kremote: Compressing objects:  49% (29/59)[Kremote: Compressing objects:  50% (30/59)[Kremote: Compressing objects:  52% (31/59)[Kremote: Compressing objects:  54% (32/59)[Kremote: Compressing objects:  55% (33/59)[Kremote: Compressing objects:  57% (34/59)[Kremote: Compressing objects:  59% (35/59)[Kremote: Compressing objects:  61% (36/59)[Kremote: Compressing objects:  62% (37/59)[Kremote: Compressing objects:  64% (38/59)[Kremote: Compressing objects:  66% (39/59)[Kremote: Compressing objects:  67% (40/59)[Kremote: Compressing objects:  69% (41/59)[Kremote: Compressing objects:  71% (42/59)[Kremote: Compressing objects:  72% (43/59)[Kremote: Compressing objects:  74% (44/59)[Kremote: Compressing objects:  76% (45/59)[Kremote: Compressing objects:  77% (46/59)[Kremote: Compressing objects:  79% (47/59)[Kremote: Compressing objects:  81% (48/59)[Kremote: Compressing objects:  83% (49/59)[Kremote: Compressing objects:  84% (50/59)[Kremote: Compressing objects:  86% (51/59)[Kremote: Compressing objects:  88% (52/59)[Kremote: Compressing objects:  89% (53/59)[Kremote: Compressing objects:  91% (54/59)[Kremote: Compressing objects:  93% (55/59)[Kremote: Compressing objects:  94% (56/59)[Kremote: Compressing objects:  96% (57/59)[Kremote: Compressing objects:  98% (58/59)[Kremote: Compressing objects: 100% (59/59)[Kremote: Compressing objects: 100% (59/59), done.[K
+Receiving objects:   0% (1/125)Receiving objects:   1% (2/125)Receiving objects:   2% (3/125)Receiving objects:   3% (4/125)Receiving objects:   4% (5/125)Receiving objects:   5% (7/125)Receiving objects:   6% (8/125)Receiving objects:   7% (9/125)Receiving objects:   8% (10/125)Receiving objects:   9% (12/125)Receiving objects:  10% (13/125)Receiving objects:  11% (14/125)Receiving objects:  12% (15/125)Receiving objects:  13% (17/125)Receiving objects:  14% (18/125)Receiving objects:  15% (19/125)Receiving objects:  16% (20/125)Receiving objects:  17% (22/125)Receiving objects:  18% (23/125)Receiving objects:  19% (24/125)Receiving objects:  20% (25/125)Receiving objects:  21% (27/125)Receiving objects:  22% (28/125)Receiving objects:  23% (29/125)Receiving objects:  24% (30/125)Receiving objects:  25% (32/125)Receiving objects:  26% (33/125)Receiving objects:  27% (34/125)Receiving objects:  28% (35/125)Receiving objects:  29% (37/125)Receiving objects:  30% (38/125)Receiving objects:  31% (39/125)Receiving objects:  32% (40/125)remote: Total 125 (delta 51), reused 116 (delta 51), pack-reused 8 (from 1)[K
+Receiving objects:  33% (42/125)Receiving objects:  34% (43/125)Receiving objects:  35% (44/125)Receiving objects:  36% (45/125)Receiving objects:  37% (47/125)Receiving objects:  38% (48/125)Receiving objects:  39% (49/125)Receiving objects:  40% (50/125)Receiving objects:  41% (52/125)Receiving objects:  42% (53/125)Receiving objects:  43% (54/125)Receiving objects:  44% (55/125)Receiving objects:  45% (57/125)Receiving objects:  46% (58/125)Receiving objects:  47% (59/125)Receiving objects:  48% (60/125)Receiving objects:  49% (62/125)Receiving objects:  50% (63/125)Receiving objects:  51% (64/125)Receiving objects:  52% (65/125)Receiving objects:  53% (67/125)Receiving objects:  54% (68/125)Receiving objects:  55% (69/125)Receiving objects:  56% (70/125)Receiving objects:  57% (72/125)Receiving objects:  58% (73/125)Receiving objects:  59% (74/125)Receiving objects:  60% (75/125)Receiving objects:  61% (77/125)Receiving objects:  62% (78/125)Receiving objects:  63% (79/125)Receiving objects:  64% (80/125)Receiving objects:  65% (82/125)Receiving objects:  66% (83/125)Receiving objects:  67% (84/125)Receiving objects:  68% (85/125)Receiving objects:  69% (87/125)Receiving objects:  70% (88/125)Receiving objects:  71% (89/125)Receiving objects:  72% (90/125)Receiving objects:  73% (92/125)Receiving objects:  74% (93/125)Receiving objects:  75% (94/125)Receiving objects:  76% (95/125)Receiving objects:  77% (97/125)Receiving objects:  78% (98/125)Receiving objects:  79% (99/125)Receiving objects:  80% (100/125)Receiving objects:  81% (102/125)Receiving objects:  82% (103/125)Receiving objects:  83% (104/125)Receiving objects:  84% (105/125)Receiving objects:  85% (107/125)Receiving objects:  86% (108/125)Receiving objects:  87% (109/125)Receiving objects:  88% (110/125)Receiving objects:  89% (112/125)Receiving objects:  90% (113/125)Receiving objects:  91% (114/125)Receiving objects:  92% (115/125)Receiving objects:  93% (117/125)Receiving objects:  94% (118/125)Receiving objects:  95% (119/125)Receiving objects:  96% (120/125)Receiving objects:  97% (122/125)Receiving objects:  98% (123/125)Receiving objects:  99% (124/125)Receiving objects: 100% (125/125)Receiving objects: 100% (125/125), 34.04 KiB | 17.02 MiB/s, done.
+Resolving deltas:   0% (0/51)Resolving deltas:   1% (1/51)Resolving deltas:   3% (2/51)Resolving deltas:   5% (3/51)Resolving deltas:   7% (4/51)Resolving deltas:   9% (5/51)Resolving deltas:  11% (6/51)Resolving deltas:  13% (7/51)Resolving deltas:  15% (8/51)Resolving deltas:  17% (9/51)Resolving deltas:  19% (10/51)Resolving deltas:  21% (11/51)Resolving deltas:  23% (12/51)Resolving deltas:  25% (13/51)Resolving deltas:  27% (14/51)Resolving deltas:  29% (15/51)Resolving deltas:  31% (16/51)Resolving deltas:  33% (17/51)Resolving deltas:  35% (18/51)Resolving deltas:  39% (20/51)Resolving deltas:  41% (21/51)Resolving deltas:  43% (22/51)Resolving deltas:  45% (23/51)Resolving deltas:  47% (24/51)Resolving deltas:  50% (26/51)Resolving deltas:  52% (27/51)Resolving deltas:  54% (28/51)Resolving deltas:  56% (29/51)Resolving deltas:  58% (30/51)Resolving deltas:  60% (31/51)Resolving deltas:  62% (32/51)Resolving deltas:  66% (34/51)Resolving deltas:  68% (35/51)Resolving deltas:  70% (36/51)Resolving deltas:  72% (37/51)Resolving deltas:  74% (38/51)Resolving deltas:  76% (39/51)Resolving deltas:  80% (41/51)Resolving deltas:  82% (42/51)Resolving deltas:  84% (43/51)Resolving deltas:  86% (44/51)Resolving deltas:  88% (45/51)Resolving deltas:  90% (46/51)Resolving deltas:  92% (47/51)Resolving deltas:  96% (49/51)Resolving deltas:  98% (50/51)Resolving deltas: 100% (51/51)Resolving deltas: 100% (51/51), done.
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445[00m$ [7mcd lab5[27mcd lab5
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mcp ../lab5-wrong-backup/lab5a.py [27m[7m.[27m[7m [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp ../lab5-wrong-backup/lab5a.py .
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mcp ../lab5-wrong-backup/lab5b.py [27m[7m.[27m[7m [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp ../lab5-wrong-backup/lab5b.py .
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mcp ../lab5-wrong-backup/lab5c.py [27m[7m.[27m[7m [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp ../lab5-wrong-backup/lab5c.py .
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mcp ../lab5-wrong-backup/data.txt [27m[7m.[27m[7m [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp ../lab5-wrong-backup/data.txt .
+[A
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mcp ../lab5-wrong-backup/laboutput[27m[7m.[27m[7mtxt .[27m[A]0;akkoiri@Akkoiri-virtual-mac
