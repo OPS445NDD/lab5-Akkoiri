@@ -1,0 +1,136 @@
+Script started on 2026-06-05 09:33:53-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mpython3 lab5a.py[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3 lab5a.py
+[A
+[?2004lHello World
+This is the second line
+Third line
+Last line
+
+['Hello World', 'This is the second line', 'Third line', 'Last line']
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mpython3 lab5b.py[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3 lab5b.py
+[A
+[?2004lFirst Line
+Second Line
+Third Line
+First Line
+Second Line
+Third Line
+First Line
+Second Line
+Third Line
+First Line
+Second Line
+Third Line
+First Line
+Second Line
+Third Line
+
+Line 1
+Line 2
+Line 3
+
+1:Line 1
+2:Line 2
+3:Line 3
+
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mpython3 lab5c.py[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3 lab5c.py
+[A
+[?2004l15
+15
+error: could not add numbers
+['Line 1\n', 'Line 2\n', 'Line 3\n']
+error: could not read file
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ ls
+[?2004lakkoiri.lab5a.txt  [0m[01;32mlab5a.py[0m       seneca1.txt.checkscript
+akkoiri.lab5b.txt  [01;32mlab5b.py[0m       seneca2.txt
+akkoiri.lab5c.txt  [01;32mlab5c.py[0m       seneca2.txt.checkscript
+CheckLab5.py       laboutput.txt  seneca3.txt
+data.txt           [01;34m__pycache__[0m    seneca3.txt.checkscript
+lab5_akkoiri.txt   seneca1.txt    seneca4.txt.checkscript
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   ../lab2[m (untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../lab3/lab3-Akkoiri/[m
+	[31m../lab4-Akkoiri/[m
+	[31m../lab4/CheckLab4.py[m
+	[31m../lab4/__pycache__/[m
+	[31m../lab4/akkoiri.lab4a.txt[m
+	[31m../lab4/akkoiri.lab4b.txt[m
+	[31m../lab4/akkoiri.lab4c.txt[m
+	[31m../lab4/akkoiri.lab4d.txt[m
+	[31m../lab4/akkoiri.lab4e.txt[m
+	[31m../lab4/akkoiri.laboutput.txt[m
+	[31m./[m
+	[31m../test-lab3/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit add lab5a.py lab5b.py lab5c.p[27m[7my[27m[A]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ git add lab5a.py lab5b.py lab5c.py
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit add .[27mgit add .
+[?2004l[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit commit -m "Completed Lab 5"[27mgit commit -m "Completed Lab 5"
+[?2004l[main 6ae6ccd] Completed Lab 5
+ 20 files changed, 664 insertions(+)
+ create mode 100644 lab5/CheckLab5.py
+ create mode 100644 lab5/__pycache__/lab5a.cpython-312.pyc
+ create mode 100644 lab5/__pycache__/lab5b.cpython-312.pyc
+ create mode 100644 lab5/__pycache__/lab5c.cpython-312.pyc
+ create mode 100644 lab5/akkoiri.lab5a.txt
+ create mode 100644 lab5/akkoiri.lab5b.txt
+ create mode 100644 lab5/akkoiri.lab5c.txt
+ create mode 100644 lab5/data.txt
+ create mode 100644 lab5/lab5_akkoiri.txt
+ create mode 100755 lab5/lab5a.py
+ create mode 100755 lab5/lab5b.py
+ create mode 100755 lab5/lab5c.py
+ create mode 100644 lab5/laboutput.txt
+ create mode 100644 lab5/seneca1.txt
+ create mode 100644 lab5/seneca1.txt.checkscript
+ create mode 100644 lab5/seneca2.txt
+ create mode 100644 lab5/seneca2.txt.checkscript
+ create mode 100644 lab5/seneca3.txt
+ create mode 100644 lab5/seneca3.txt.checkscript
+ create mode 100644 lab5/seneca4.txt.checkscript
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit commit -m "Completed Lab 5"[27mgit commit -m "Completed Lab 5"
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   ../lab2[m (untracked content)
+	[31mmodified:   laboutput.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../lab3/lab3-Akkoiri/[m
+	[31m../lab4-Akkoiri/[m
+	[31m../lab4/CheckLab4.py[m
+	[31m../lab4/__pycache__/[m
+	[31m../lab4/akkoiri.lab4a.txt[m
+	[31m../lab4/akkoiri.lab4b.txt[m
+	[31m../lab4/akkoiri.lab4c.txt[m
+	[31m../lab4/akkoiri.lab4d.txt[m
+	[31m../lab4/akkoiri.lab4e.txt[m
+	[31m../lab4/akkoiri.laboutput.txt[m
+	[31m../test-lab3/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;akkoiri@Akkoiri-virtual-machine: ~/ops445/lab5[01;32makkoiri@Akkoiri-virtual-machine[00m:[01;34m~/ops445/lab5[00m$ [7mgit push[27mgit push
+[?2004lEnumerating objects: 22, done.
+Counting objects:   4% (1/22)Counting objects:   9% (2/22)Counting objects:  13% (3/22)Counting objects:  18% (4/22)Counting objects:  22% (5/22)Counting objects:  27% (6/22)Counting objects:  31% (7/22)Counting objects:  36% (8/22)Counting objects:  40% (9/22)Counting objects:  45% (10/22)Counting objects:  50% (11/22)Counting objects:  54% (12/22)Counting objects:  59% (13/22)Counting objects:  63% (14/22)Counting objects:  68% (15/22)Counting objects:  72% (16/22)Counting objects:  77% (17/22)Counting objects:  81% (18/22)Counting objects:  86% (19/22)Counting objects:  90% (20/22)Counting objects:  95% (21/22)Counting objects: 100% (22/22)Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects:   6% (1/15)Compressing objects:  13% (2/15)Compressing objects:  20% (3/15)Compressing objects:  26% (4/15)Compressing objects:  33% (5/15)Compressing objects:  40% (6/15)Compressing objects:  46% (7/15)Compressing objects:  53% (8/15)Compressing objects:  60% (9/15)Compressing objects:  66% (10/15)Compressing objects:  73% (11/15)Compressing objects:  80% (12/15)Compressing objects:  86% (13/15)Compressing objects:  93% (14/15)Compressing objects: 100% (15/15)Compressing objects: 100% (15/15), done.
+Writing objects:   4% (1/21)Writing objects:   9% (2/21)Writing objects:  14% (3/21)Writing objects:  19% (4/21)Writing objects:  23% (5/21)Writing objects:  33% (7/21)Writing objects:  38% (8/21)Writing objects:  42% (9/21)Writing objects:  47% (10/21)Writing objects:  52% (11/21)Writing objects:  61% (13/21)Writing objects:  66% (14/21)Writing objects:  71% (15/21)Writing objects:  76% (16/21)Writing objects:  80% (17/21)Writing objects:  85% (18/21)Writing objects:  90% (19/21)Writing objects:  95% (20/21)Writing objects: 100% (21/21)Writing o
